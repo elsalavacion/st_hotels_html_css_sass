@@ -1,0 +1,53 @@
+.subscribe 
+{
+  padding: 25px 10px;
+  background: black;
+  color: white;
+  // heading
+  &-heading 
+  {
+    font-family: $heading-font;
+    font-size: 24px;
+    padding: 5px 0;
+  }
+
+  // motto
+  &-motto
+  {
+    font-family: $motto-font;
+    padding: 15px 0;
+    font-size: 16px;
+  }
+
+  // form
+  &-form 
+  {
+    form 
+    {
+      input,label
+      {
+        line-height: 40px;
+        display: block;
+        width: 100%;
+        font-size: 18px;
+
+        &[type = "submit"]
+        {
+          padding: 5px 15px;
+          margin: 10px 0;
+          cursor: pointer;
+          width: 35%;
+          background: red;
+          color: white;
+          border: none;
+
+          &:hover 
+          {
+            background: lightgray;
+            color: black;
+          }
+        }
+        }
+    }
+  }
+}

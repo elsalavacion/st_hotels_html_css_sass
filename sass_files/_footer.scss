@@ -1,0 +1,45 @@
+.footer 
+{
+  padding: 20px 10px;
+  text-align: center;
+  background: black;
+  color: white;
+  // heading
+  &-heading 
+  {
+    font-family: $heading-font;
+    font-size: 24px;
+    padding: 5px 0;
+  }
+  
+  // social 
+  &-social 
+  {
+    margin: 25px 10px;
+    span 
+    {
+      padding: 25px 5px;
+      a {
+        color: white;
+
+        &:hover
+        {
+          color: lightgray;
+        }
+      }
+
+     
+    }
+  }
+
+  // motto 
+  &-motto 
+  {
+    a 
+    {
+      text-decoration: underline;
+      color: white;
+      padding: 10px 0;
+    }
+  }
+}

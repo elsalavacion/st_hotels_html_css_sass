@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ST HOTELS</title>
+
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto+Mono:ital,wght@1,200&family=Roboto+Slab:wght@900&family=Roboto:wght@300&display=swap"
+    rel="stylesheet">
+  <!-- favicon -->
+  <link rel="shortcut icon" href="img/room-1.jpg" type="image/x-icon">
+
+  <!-- style css -->
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <!-- navbar -->
+  <nav class="nav" id="nav">
+    <div class="nav-logo">
+      <a href="#">
+        <span>ST</span>HOTELS
+      </a>
+    </div>
+    <input type="checkbox" id="nav-drop-down">
+    <div class="nav-menu">
+      <span>
+        <a href="#home">
+          Home
+        </a>
+      </span>
+      <span>
+        <a href="#about">
+          About
+        </a>
+      </span>
+      <span>
+        <a href="#room">
+          Rooms
+        </a>
+      </span>
+      <span>
+        <a href="#contact">
+          Contact
+        </a>
+      </span>
+      <span>
+        <a href="#gallery">
+          Gallery
+        </a>
+      </span>
+    </div>
+    <div class="nav-btn">
+      <label for="nav-drop-down" class="nav-btn-hamburger">
+        <!-- hambuger -->
+        <i class="fas fa-bars"></i>
+      </label>
+    </div>
+  </nav>
+
+  <!-- showcase -->
+  <section class="showcase" id="home">
+    <div class="showcase-overlay">
+      <div class="showcase-content">
+        <h1><span>ST</span>HOTELS</h1>
+        <form name="Check-In-Details" method="POST" data-netlify="true">
+          <div class="showcase-content-form">
+            <div class="showcase-content-form-left">
+              <label><span><i class="far fa-calendar"></i></span>Check In</label>
+              <input type="text" placeholder="DD MM YY" name="Check-In" required>
+
+              <label><span><i class="fas fa-male"></i></span>Adults</label>
+              <input type="number" value="1" min="1" name="Adults">
+            </div>
+
+            <!-- right -->
+            <div class="showcase-content-form-right">
+              <label><span><i class="far fa-calendar"></i></span>Check Out</label>
+              <input type="text" placeholder="DD MM YY" name="Check-Out" required>
+
+              <label><span><i class="fas fa-child"></i></span>Kids</label>
+              <input type="number" name="Kids" value="4" min="1">
+            </div>
+             <input type="submit" value="Search"  class="showcase-content-form-submit">
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+<section class="room" id="room">
+  <div class="room-heading">
+    Rooms
+  </div>
+  <div class="room-motto">
+    Make yourself at home is our slogan. We offer the best beds in the industry. Sleep well and rest well.
+  </div>
+  <div class="room-types">
+    <!-- singles -->
+    <div class="room-type">
+      <img src="img/room-3.jpg" alt="ST HOTEL">
+      <div class="room-type-heading">
+        Single Room
+      </div>
+      <div class="room-type-price">
+        From $100
+      </div>
+      <div class="room-type-bed">
+        Double Bed
+      </div>
+      <div class="room-type-area">
+        20m<sup>2</sup>
+      </div>
+      <div class="room-type-services">
+        <span>
+          <i class="fas fa-bath"></i>
+        </span>
+        <span>
+          <i class="fas fa-phone-alt"></i>
+        </span>
+        <span>
+          <i class="fas fa-wifi"></i>
+        </span>
+      </div>
+      <div class="room-type-btn">
+        <a href="#">Choose Room</a>
+      </div>
+    </div>
+
+    <!-- Double Room -->
+    <div class="room-type">
+      <img src="img/room-2.jpg" alt="ST HOTEL">
+      <div class="room-type-heading">
+        Double Room
+      </div>
+      <div class="room-type-price">
+        From $150
+      </div>
+      <div class="room-type-bed">
+        Queen Size Bed
+      </div>
+      <div class="room-type-area">
+        35m<sup>2</sup>
+      </div>
+      <div class="room-type-services">
+        <span>
+          <i class="fas fa-bath"></i>
+        </span>
+        <span>
+          <i class="fas fa-phone-alt"></i>
+        </span>
+        <span>
+          <i class="fas fa-wifi"></i>
+        </span>
+        <span>
+          <i class="fas fa-desktop"></i>
+        </span>
+        <span>
+          <i class="fas fa-glass-cheers"></i>
+        </span>
+      </div>
+      <div class="room-type-btn">
+        <a href="#">Choose Room</a>
+      </div>
+    </div>
+
+    <!-- Deluxe -->
+    <div class="room-type">
+      <img src="img/room-4.jpg" alt="ST HOTEL">
+      <div class="room-type-heading">
+        Deluxe Room
+      </div>
+      <div class="room-type-price">
+        From $300
+      </div>
+      <div class="room-type-bed">
+        King Size Bed
+      </div>
+      <div class="room-type-area">
+        50m<sup>2</sup>
+      </div>
+      <div class="room-type-services">
+        <span>
+          <i class="fas fa-bath"></i>
+        </span>
+        <span>
+          <i class="fas fa-phone-alt"></i>
+        </span>
+        <span>
+          <i class="fas fa-wifi"></i>
+        </span>
+        <span>
+          <i class="fas fa-desktop"></i>
+        </span>
+        <span>
+          <i class="fas fa-glass-martini"></i>
+        </span>
+        <span>
+          <i class="fas fa-utensils"></i>
+        </span>
+      </div>
+      <div class="room-type-btn">
+        <a href="#">Choose Room</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About -->
+<section class="about" id="about">
+ <div class="about-overlay">
+  <div class="about-heading">
+    About
+  </div>
+  <div class="about-motto">
+    Our hotel is one of a kind. It is truely amazing. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+  </div>
+  <div class="about-payment">
+    We accept 
+    <span>
+      <i class="fab fa-cc-mastercard fa-2x"></i>
+    </span>
+    <span>
+      <i class="fab fa-cc-visa fa-2x"></i>
+    </span>
+    <span>
+      <i class="fab fa-paypal fa-2x"></i>
+    </span>
+    <span>
+      <i class="fab fa-bitcoin fa-2x"></i>
+    </span>
+  </div>
+ </div>
+</section>
+
+<!-- Gallery -->
+<section class="gallery" id="gallery">
+  <div class="gallery-heading">
+  <h1>
+    <span>ST</span>HOTELS Gallery
+  </h1>
+  </div>
+  <div class="gallery-images">
+    <img src="img/pool-1.jpg" alt="ST HOTELS">
+    <img src="img/pool-2.jpg" alt="ST HOTELS">
+    <img src="img/pool-4.jpg" alt="ST HOTELS">
+    <img src="img/pool-5.jpg" alt="ST HOTELS">
+    <img src="img/room-1.jpg" alt="ST HOTELS">
+    <img src="img/room-2.jpg" alt="ST HOTELS">
+  </div>
+</section>
+
+<!-- Hotels -->
+<section class="hotels" id="hotels">
+  <div class="hotels-heading">
+    Our Hotels
+  </div>
+  <div class="hotels-motto">
+    You can find our hotels anywhere in the world:
+  </div>
+  <div class="hotels-gallery">
+ <div class="hotels-gallery-left">
+        <p>New York</p>
+      </div>
+    <div class="hotels-gallery-right">
+      <div class="hotels-gallery-right-london">
+        <p>London</p>
+      </div>
+      <div class="hotels-gallery-right-paris">
+        <p>Paris</p>
+      </div>
+      <div class="hotels-gallery-right-madrid"> 
+        <p>
+          Madrid
+        </p>
+      </div>
+      <div class="hotels-gallery-right-singapor">
+        <p>
+          Singapor
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Subscribe -->
+<section class="subscribe">
+  <div class="subscribe-heading">
+    Get the best offers first!
+  </div>
+  <div class="subscribe-motto">
+    Join our newsletter.
+  </div>
+  <div class="subscribe-form">
+    <form name="subscribe" method="POST" data-netlify="true">
+      <label>Email</label>
+      <input type="text" placeholder="Your Email Address" name="Email">
+      <input type="submit" value="Subscribe">
+    </form>
+  </div>
+</section>
+
+<!-- contact -->
+<section class="contact" id="contact">
+  <div class="contact-heading">
+    Contact
+  </div>
+    <div class="contact-info">
+      <p><span><i class="fas fa-map-marker-alt"></i></span> Address: Banjul, The Gambia.</p>
+      <p><span><i class="fas fa-phone-alt"></i></span> Phone: (+880) 01920693675</p>
+      <p><span><i class="fas fa-envelope"></i></span> Email: help@sthotels.com</p>
+    </div>
+    <div class="contact-form"  name="contact" method="POST"  data-netlify-recaptcha="true" data-netlify="true">
+      <form>
+        <input type="text" placeholder="Name" name="Name">
+        <input type="text" placeholder="Email" name="Email">
+        <input type="text" placeholder="Message" name="Message">
+        <div data-netlify-recaptcha="true"></div>
+        <input type="submit" value="Send">
+      </form>
+    </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-heading">
+    Find Us On
+  </div>
+  <div class="footer-social">
+    <span>
+      <a target="_blank" href="https://instagram.com">
+        <i class="fab fa-instagram fa-2x"></i>
+      </a>
+    </span>
+    <span>
+      <a target="_blank" href="https://facebook.com">
+        <i class="fab fa-facebook fa-2x"></i>
+      </a>
+    </span>
+    <span>
+      <a target="_blank" href="https://twitter.com">
+        <i class="fab fa-twitter fa-2x"></i>
+      </a>
+    </span>
+    <span>
+      <a target="_blank" href="http://tiktok.com">
+        <i class="fab fa-tiktok fa-2x"></i>
+      </a>
+    </span>
+    <span>
+      <a target="_blank" href="https://snapchat.com">
+        <i class="fab fa-snapchat-ghost fa-2x"></i>
+      </a>
+    </span>
+  </div>
+
+  <div class="footer-motto">
+    Developed by STEPS &copy;2020 & Some Credit to <a href="https://w3schools.com">w3schools</a>
+  </div>
+</footer>
+</body>
+
+</html>

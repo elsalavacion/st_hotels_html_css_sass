@@ -1,0 +1,116 @@
+@media(max-width: 675px)
+{
+
+  // shocase
+.showcase 
+{
+&-overlay 
+{
+  padding: 0;
+}
+&-content 
+{
+  width: 95%;
+  margin: auto;
+
+
+  &-form 
+{
+    grid-template-columns: 1fr;
+    padding-bottom:15px;
+    
+    label, input
+    {
+      display: block;
+      width: 95%;
+      margin: auto;
+    }
+    
+    &-submit 
+    {
+      border: none;
+    }
+}
+}
+}
+
+// gallery 
+.gallery 
+{
+&-images 
+{
+  grid-template-columns: repeat(2, 1fr);
+}
+}
+
+// rooms
+.room 
+{
+  &-types 
+  {
+    grid-template-columns: 1fr;
+  }
+
+  &-type 
+  {
+    img 
+    {
+      height: 250px;
+    }
+  }
+}
+
+
+// hotels
+.hotels 
+{
+  // gallery
+  &-gallery 
+  {
+    grid-template-columns: 1fr;
+
+    // left 
+    &-left 
+    {
+      height: 250px;
+    }
+    // right
+    &-right 
+    {
+    grid-template-columns: 1fr;
+    }
+  }
+}
+}
+
+// smaller screens
+@media(max-width: 500px)
+{
+    // showcase
+    .showcase 
+    {
+      &-content 
+      {
+        h1 
+        {
+          font-size: 28px;
+        }
+      }
+    }
+  // gallery 
+.gallery 
+{
+  &-heading 
+  {
+    h1 
+    {
+      font-size: 28px;
+    }
+  }
+&-images 
+{
+  grid-template-columns: 1fr;
+}
+
+}
+}

@@ -1,0 +1,35 @@
+.about 
+{
+  // overlay
+  &-overlay 
+  {
+    background: black;
+    color: white;
+    width: 100%;
+  padding: 10px;
+  height: 100%;
+  }
+  
+
+  // heading
+  &-heading 
+  {
+    font-family: $heading-font;
+    font-size: 24px;
+    padding: 5px 0;
+  }
+
+    // motto
+    &-motto
+    {
+      font-family: $motto-font;
+      padding: 15px 15px 15px 0;
+    }
+
+  // payment 
+  &-payment 
+  {
+  font-size: 20px;
+  font-family: $sub-heading-font;
+  }
+}

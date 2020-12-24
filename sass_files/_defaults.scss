@@ -1,0 +1,40 @@
+
+*
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body 
+{
+  font-family: $body-font;
+  overflow-x: hidden;
+  background:rgba($color: lightgray, $alpha: 0.2);
+}
+
+a 
+{
+  text-decoration: none;
+  color: black;
+}
+
+h1
+{
+  font-family: $heading-font;
+  font-size: 38px;
+  line-height: 100px;
+}
+
+h3
+{
+  font-family: $sub-heading-font;
+  font-size: 28px;
+  line-height: 75px;
+
+}
+
+#drop-down-check 
+{
+  display: none;
+}
